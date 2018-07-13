@@ -6,5 +6,5 @@ app = Flask(__name__)
 @app.route("/<string:name>")
 
 def hello(name):
-    name = name.Capitalize()
+    name = name.capitalize()
     return f"Hello, {name}!"
