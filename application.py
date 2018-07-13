@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 @app.route("/<string:name>")
 
-def index(name):
+def hello(name):
     name = name.Capitalize()
     return f"Hello, {name}!"
