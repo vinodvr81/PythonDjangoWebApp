@@ -9,4 +9,4 @@ def index():
 
 def hello(name):
     name = name.capitalize()
-    return f"Hello, {name}!"
+    return "Hello, {}!".format(name)
